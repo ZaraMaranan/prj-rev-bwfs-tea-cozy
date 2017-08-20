@@ -1,0 +1,135 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+.header {
+  background: black;
+  width: 100%;
+  height: 69px;
+  top: 0;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  z-index:1;
+}
+.logo {
+  padding: 10px 9.5px;
+}
+.logo img {
+  height: 50px;
+}
+li {
+  list-style: none;
+  text-decoration: underline;
+  float: left;
+  margin-left: 25px;
+  padding-right: 10px;
+}
+.nav {
+  float: right;
+}
+
+
+div .bizarre {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+div .content {
+  background: black;
+  top: 260px;
+  width: 1200px;
+  left: 50%;
+  margin-left: -600px;
+  position: absolute;
+  text-align: center;
+}
+
+
+div .tofthemonth {
+  background-color: black;
+  width: 1000px;
+  left: 50%;
+  margin-left: -500px;
+  position: absolute;
+  text-align: center;
+  top: 825px;
+}
+
+
+.featured img{
+  height: 200px;
+  width: 300px;
+}
+#teas1 , #teas2 {
+  justify-content: space-around;
+  display: inline-flex;
+  position: absolute;
+  text-align: center;
+  width: 30%;
+  left: 50%;
+  margin-left: -15%
+}
+#teas1 {
+  top: 990px;
+}
+#teas2 {
+  top: 300px;
+}
+#teas1 img {
+  padding: 0px 20px;
+}
+#teas1 h4 {
+ top: 0;
+}
+
+.locations .container{
+text-align: center;
+}
+.locations img {
+  height: 500px;
+  width: 1000px;
+  padding-top: 890px;
+  left: 50%;
+  display: inline-block;
+}
+.locations h2 {
+text-align: center;
+position: absolute;
+width: 100%;
+left: 50%;
+margin-left: -50%;
+height: 100%;
+top:50%;
+margin-top: 48%;
+}
+.locations .content {
+  position: absolute;
+  padding-top: 1500px;
+  background: none;
+}
+#downtownbox , #eastbox , #oakdalebox {
+  background: black;
+  width: 300px;
+  display: inline-block;
+  opacity: 1;
+  height: 100%;
+  top: 50%;
+  margin-top: -6%;
+}
+
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+.contact h5 {
+  line-height: 3;
+}
+
+.footer {
+  text-align: left;
+  padding-left: 20px;
+}
